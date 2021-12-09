@@ -12,3 +12,32 @@
 - 전처리 : 이상치 제거(iqr * 1.5), log 변환, Timestamp -> cos 형태의 주기 함수로 변환
 - 코드 관리 : github organization
 - 이후 일정 : Baseline code 구성, baseline을 분기점으로 다양한 방법론 적용 예정
+
+## Directory Structure
+
+```bash
+.
+├── README.md
+├── baseline_eda.ipynb
+├── baseline_submission.ipynb
+├── dataset_external_res
+│   ├── 한국가스공사_도시가스 산업용 월별 상대가격지수.csv
+│   └── 한국전력거래소_시간별 발전량.csv
+├── dataset_external_weather
+│   ├── OBS_ASOS_TIM_20211017003024.csv
+│   ├── OBS_ASOS_TIM_20211017003117.csv
+│   ├── OBS_ASOS_TIM_20211017004006.csv
+│   ├── OBS_ASOS_TIM_20211017004047.csv
+│   ├── OBS_ASOS_TIM_20211017004154.csv
+│   └── OBS_ASOS_TIM_20211017004224.csv
+├── datasets
+│   ├── README.md
+│   ├── sample_submission.csv
+│   ├── test.csv
+│   └── 한국가스공사_시간별 공급량.csv
+├── dir_text.txt
+├── final_submission.ipynb
+├── stacking_ensemble_submission_logscale.ipynb
+├── stacking_ensemble_submission_logscale_tunning.ipynb
+└── submission.py
+```
